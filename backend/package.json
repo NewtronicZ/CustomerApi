@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "start": "node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
@@ -14,5 +15,9 @@
     "express": "^4.17.1",
     "mongodb": "^6.3.0",
     "mongoose": "^6.0.11"
+  },
+  "engines": {
+    "node": "21.6.2",
+    "npm": "10.2.4"
   }
 }
